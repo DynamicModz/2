@@ -1,10 +1,10 @@
 local function LoadScript()
     local success, result = pcall(function()
         -- Load the custom UI library
-        local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/your-repo/luaguard_custom_lib.lua'))()
+        local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/DynamicModz/2/refs/heads/main/luaguard_custom_lib.lua'))()
         
         -- Load the main script
-        local UniversalScript = loadstring(game:HttpGet('https://raw.githubusercontent.com/your-repo/universal_script.lua'))()
+        local UniversalScript = loadstring(game:HttpGet('https://raw.githubusercontent.com/DynamicModz/2/refs/heads/main/universal_script.lua'))()
         
         -- Create main window
         local Window = Library:CreateWindow("Universal Script")
